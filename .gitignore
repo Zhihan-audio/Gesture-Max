@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+build/dist/
+build/work/
+build/*.spec
+gesture-tracker/config.json
+gesture-tracker/assets/hand_landmarker.task
+.DS_Store

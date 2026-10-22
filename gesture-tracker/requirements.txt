@@ -1,0 +1,10 @@
+# Gesture Control M4L — Python Tracker dependencies
+# Requires Python 3.9 – 3.12 (MediaPipe does not support 3.13+ yet)
+mediapipe>=0.10.14,<0.11
+opencv-python>=4.9,<6
+python-osc>=1.8,<2
+numpy>=1.24,<3
+# macOS: camera name enumeration (to skip the iPhone Continuity Camera)
+pyobjc-framework-AVFoundation>=9.0; sys_platform == "darwin"
+# macOS: promote the process to a foreground app so the preview window's close button works
+pyobjc-framework-Cocoa>=9.0; sys_platform == "darwin"
